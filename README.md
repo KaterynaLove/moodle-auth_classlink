@@ -12,7 +12,7 @@ This repository is updated with stable releases and matched with OIDC plugin. To
 4. To configure the plugin, from the Moodle Administration block, go to Site Administration > Plugins > Authentication > Manage Authentication.
 5. Click the icon to enable the plugin, then visit the settings page to configure the plugin. Follow the directions below each setting.
 
-For more documentation, visit https://docs.moodle.org/37en/classlink
+For more documentation about ClassLink OAuth2 Workflow, visit https://developer.classlink.com/docs/oauth2-workflow
 
 For more information including support and instructions on how to contribute, please see: https://github.com/GopalSharma/moodle-auth_classlink/README.md
 
