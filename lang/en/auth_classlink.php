@@ -22,7 +22,7 @@
  */
 
 $string['pluginname'] = 'ClassLink OAuth2';
-$string['auth_classlinkdescription'] = 'The ClassLink OAuth2 plugin provides single-sign-on functionality using Azure Active Directory (Azure AD) B2C identity providers.';
+$string['auth_classlinkdescription'] = 'The ClassLink OAuth2 plugin provides single-sign-on functionality with ClassLink LaunchPad using configurable identity providers and the scope of ClassLink OAuth2.';
 
 $string['cfg_authendpoint_key'] = 'Authorization Endpoint';
 $string['cfg_authendpoint_desc'] = 'The URI of the Authorization endpoint from your identity provider to use.';
@@ -30,7 +30,7 @@ $string['cfg_autoappend_key'] = 'Auto-Append';
 $string['cfg_autoappend_desc'] = 'Automatically append this string when logging in users using the "Resource Owner Password Credentials" authentication method. This is useful when your identity provider requires a common domain, but don\'t want to require users to type it in when logging in. For example, if the full ClassLink OAuth2 user is "james@example.com" and you enter "@example.com" here, the user will only have to enter "james" as their username. <br /><b>Note:</b> In the case where conflicting usernames exist - i.e. a Moodle user exists wth the same name, the priority of the authentication plugin is used to determine which user wins out.';
 
 $string['cfg_scope_key'] = 'ClassLink OAuth2 Scope';
-$string['cfg_scope_desc'] = 'Enter the Scope value for Azure Active Directory (Azure AD) B2C, which will be used to authenticate users.';
+$string['cfg_scope_desc'] = 'Enter the Scope value for ClassLink OAuth2 Apps, which will be used to authenticate users.';
 
 $string['cfg_resetpassendpoint_key'] = 'Forgot Password Endpoint';
 $string['cfg_resetpassendpoint_desc'] = 'The URI of the Forgot Password endpoint from ClassLink OAuth2, used to reset the password.';
