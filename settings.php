@@ -25,7 +25,7 @@ require_once(__DIR__.'/lib.php');
 
 $configkey = new lang_string('cfg_scope_key', 'auth_classlink');
 $configdesc = new lang_string('cfg_scope_desc', 'auth_classlink');
-$configdefault = "your_scope_value";
+$configdefault = "openid profile";
 $settings->add(new admin_setting_configtext('auth_classlink/scope', $configkey, $configdesc, $configdefault, PARAM_TEXT));
 
 $configkey = new lang_string('cfg_opname_key', 'auth_classlink');
