@@ -20,7 +20,6 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @copyright (C) 2020 Gopal Sharma <gopalsharma66@gmail.com>
  */
-defined('MOODLE_INTERNAL') || die();
 require_once(__DIR__.'/../../config.php');
 require_once(__DIR__.'/auth.php');
 
