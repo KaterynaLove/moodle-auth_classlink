@@ -86,7 +86,7 @@ $settings->add(new \admin_setting_configcheckbox('auth_classlink/debugmode', $la
 
 $configkey = new lang_string('cfg_icon_key', 'auth_classlink');
 $configdesc = new lang_string('cfg_icon_desc', 'auth_classlink');
-$configdefault = 'auth_classlink:calsslink';
+$configdefault = 'auth_classlink:classlink';
 $icons = [
     [
         'pix' => 'classlink',
