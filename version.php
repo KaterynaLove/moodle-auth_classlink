@@ -25,6 +25,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version = 2021111200;
 $plugin->requires = 2018051700;    // YYYYMMDDRR
-$plugin->release = '3.11.0.3';
+$plugin->release = '3.11.0.4';
 $plugin->component = 'auth_classlink';
 $plugin->maturity = MATURITY_STABLE;
